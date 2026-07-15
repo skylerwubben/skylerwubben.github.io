@@ -131,7 +131,8 @@ footer {
 }
 
 address {
-	color: rgb(255,135,24);
+	color: rgb(255,135,24)
+	text-decoration: none;
 	}
 
 footer p {
