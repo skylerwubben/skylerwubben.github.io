@@ -11,14 +11,10 @@ div.container {
 }
 
 div.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3em;
+    display: block;
 }
-div.about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3em;
+div.about{
+	display:block;
 }
 
 /* >>> IMPORTANT: you have to change the wrap of the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class. And you need a div with the class container and all the other pages.  */
@@ -197,7 +193,7 @@ div {
 
 @media screen and (min-width: 60em) {
     body {
-        background-color: rgb(148, 148, 148);
+        background-color: rgb(255, 255, 255);
     }
     nav ul li {
         display: inline;
@@ -212,4 +208,9 @@ div {
         grid-template-columns: 1fr 1fr;
         column-gap: 3em;
     }
+	div.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+}
 }
